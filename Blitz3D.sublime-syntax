@@ -1,0 +1,146 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/syntax.html
+name: Blitz3D
+file_extensions: [bb]
+hidden_file_extensions: [bb_bak1,bb_bak2,bb_bak3,bb_bak4,bb_bak5]
+scope: source.bb
+version: 2
+variables:
+  identifier: '[A-Za-z_][A-Za-z_0-9]*'
+  command: 'AcceptTCPStream|AddAnimSeq|AddMesh|AddTriangle|AddVertex|AlignToVector|AmbientLight|Animate|AnimateMD2|Animating|AnimLength|AnimSeq|AntiAlias|AppTitle|AutoMidHandle|BrushAlpha|BrushBlend|BrushFX|BrushShininess|BrushTexture|BSPAmbientLight|BSPLighting|CameraClsColor|CameraClsMode|CameraFogColor|CameraFogMode|CameraFogRange|CameraPick|CameraProjMode|CameraProject|CameraRange|CameraViewport|CameraZoom|CaptureWorld|ChangeDir|ChannelPan|ChannelPitch|ChannelPlaying|ChannelVolume|ClearCollisions|ClearSurface|ClearTextureFilters|ClearWorld|CloseDir|CloseFile|CloseTCPServer|CloseTCPStream|CloseUDPStream|Cls|ClsColor|Collisions|Color|CopyBank|CopyFile|CopyPixel|CopyPixelFast|CopyRect|CopyStream|CreateDir|DebugLog|Delay|DeleteDir|DeleteFile|DeleteNetPlayer|Dither|DrawBlock|DrawBlockRect|DrawImage|DrawImageRect|EmitSound|EntityAlpha|EntityAutoFade|EntityBlend|EntityBox|EntityCollided|EntityColor|EntityFX|EntityInView|EntityOrder|EntityParent|EntityPick|EntityPickMode|EntityRadius|EntityShininess|EntityTexture|EntityType|EntityVisible|ExecFile|FitMesh|Flip|FlipMesh|FlushJoy|FlushKeys|FlushMouse|FreeBank|FreeBrush|FreeEntity|FreeFont|FreeImage|FreeSound|FreeTexture|FreeTimer|FrontBuffer|GetColor|GrabImage|Graphics3D|HandleImage|HandleSprite|HideEntity|HidePointer|HostIP|HostNetGame|HWMultiTex|ImageBuffer|JoinNetGame|LightColor|LightMesh|LightRange|Line|LinePick|LoaderMatrix|Locate|LockBuffer|LoopSound|MaskImage|MD2Animating|MD2AnimLength|MD2AnimTime|MidHandle|ModifyTerrain|MoveEntity|MoveMouse|NameEntity|NetPlayerLocal|OpenFile|OpenTCPStream|Origin|Oval|PaintEntity|PaintMesh|PaintSurface|PauseChannel|PlayCDTrack|PlayMusic|PlaySound|Plot|PointEntity|PokeByte|PokeFloat|PokeInt|PokeShort|PositionEntity|PositionMesh|PositionTexture|Print|Rand|Rect|RectsOverlap|RenderWorld|ResetEntity|ResizeBank|ResizeImage|ResumeChannel|RndSeed|RotateEntity|RotateImage|RotateMesh|RotateSprite|RotateTexture|RuntimeError|SaveBuffer|SaveImage|ScaleEntity|ScaleImage|ScaleMesh|ScaleSprite|ScaleTexture|SeedRnd|SeekFile|SendNetMsg|SendUDPMsg|SetAnimKey|SetBuffer|SetFont|SetGfxDriver|ShowEntity|ShowPointer|SoundPan|SoundPitch|SoundVolume|SpriteViewMode|Stop|StopChannel|StopNetGame|StringHeight|StringWidth|SystemProperty|Tan|TCPStreamIP|TCPStreamPort|TCPTimeouts|TerrainDetail|TerrainShading|Text|TextureBlend|TextureBuffer|TextureCoords|TextureFilter|TFormFilter|TFormImage|TFormNormal|TFormPoint|TFormVector|TileBlock|TileImage|TranslateEntity|TriangleVertex|TurnEntity|UDPMsgIP|UDPMsgPort|UDPTimeouts|UnlockBuffer|UpdateNormals|UpdateWorld|VertexColor|VertexCoords|VertexNormal|VertexTexCoords|Viewport|VWait|WaitJoy|WaitKey|WaitMouse|WaitTimer|WBuffer|Windowed3D|WireFrame|Write|WriteByte|WriteBytes|WriteFile|WriteFloat|WriteInt|WriteLine|WritePixel|WritePixelFast|WriteShort|WriteString|bscvmThreadExecute|bscvmThreadRun|bscvmThreadHalt|bscvmThreadKill|bscvmThreadSchedule|blitzscriptVarSet|bscvmCompilerLoad'
+  function: 'ACos|Asc|ASin|ATan|ATan2|AvailVidMem|BackBuffer|BankSize|Ceil|Chr|CollisionEntity|CollisionNX|CollisionNY|CollisionNZ|CollisionSurface|CollisionTime|CollisionTriangle|CollisionX|CollisionY|CollisionZ|ColorBlue|ColorGreen|ColorRed|CommandLine|CopyEntity|CopyImage|CopyMesh|Cos|CountChildren|CountCollisions|CountGfxDrivers|CountGfxModes|CountHostIPs|CountSurfaces|CountTriangles|CountVertices|CreateBank|CreateBrush|CreateCamera|CreateCone|CreateCube|CreateCylinder|CreateImage|CreateLight|CreateListener|CreateMesh|CreateNetPlayer|CreatePivot|CreatePlane|CreateSphere|CreateSprite|CreateSurface|CreateTCPServer|CreateTerrain|CreateTimer|CreateUDPStream|CurrentDate|CurrentDir|CurrentTime|DottedIP|EntityName|EntityX|EntityY|EntityYaw|EntityZ|Eof|Exp|FilePos|FileSize|FileType|FindChild|FindSurface|Floor|FontHeight|FontWidth|GetChild|GetEntityType|GetJoy|GetKey|GetMouse|GetParent|GetSurface|GfxDriver3D|GfxDriverName|GfxMode3D|GfxMode3DExists|GfxModeDepth|GfxModeExists|GfxModeHeight|GfxModeWidth|GraphicsBuffer|GraphicsDepth|GraphicsHeight|GraphicsWidth|Hex|ImageHeight|ImageRectCollide|ImageRectOverlap|ImagesCollide|ImagesOverlap|ImageWidth|ImageXHandle|ImageYHandle|Input|Instr|Int|JoyX|JoyXDir|JoyY|JoyYDir|JoyZ|JoyZDir|KeyDown|KeyHit|Left|Len|Load3DSound|LoadAnimImage|LoadAnimMesh|LoadAnimSeq|LoadAnimTexture|LoadBrush|LoadBSP|LoadBuffer|LoadFont|LoadImage|LoadMD2|LoadMesh|LoadSound|LoadSprite|LoadTerrain|LoadTexture|Log|Log10|Lower|LSet|MeshDepth|MeshesIntersect|MeshHeight|MeshWidth|Mid|MilliSecs|MouseDown|MouseHit|MouseX|MouseXSpeed|MouseY|MouseYSpeed|MouseZ|MouseZSpeed|NetMsgData|NetMsgFrom|NetMsgTo|NetMsgType|NetPlayerName|PeekByte|PeekFloat|PeekInt|PeekShort|PickedEntity|PickedNX|PickedNY|PickedNZ|PickedSurface|PickedTime|PickedTriangle|PickedX|PickedY|PickedZ|ProjectedX|ProjectedY|ProjectedZ|ReadAvail|ReadByte|ReadBytes|ReadDir|ReadFile|ReadFloat|ReadInt|ReadLine|ReadPixel|ReadPixelFast|ReadShort|ReadString|RecvNetMsg|RecvUDPMsg|Right|Rnd|ScanLine|Sin|Sqr|StartNetGame|TerrainSize|TextureHeight|TextureWidth|TFormedX|TFormedY|TFormedZ|TotalVidMem|TrisRendered|UDPStreamIP|UDPStreamPort|Upper|bscvmThreadLoad|bscvmThreadExec|bscvmThreadRunning|blitzscriptVarGet|bscvmPref'
+  expression: ''
+  conversion: ''
+
+contexts:
+  main:
+    - match: '"'
+      scope: punctuation.definition.string.begin.bb
+      push: string
+
+    - match: \(
+      push: brackets
+
+    - match: \)
+      scope: invalid.illegal.stray-bracket-end
+
+    - match: ';'
+      scope: punctuation.definition.comment.bb
+      push: comment
+
+    - match: '(=|,|\+|-|~|\^|\*|\/|<|>|<=|>=|<>)'
+      scope: keyword.operator.bb
+
+    - match: '\b(-)?[0-9.]+\b'
+      scope: constant.numeric.bb
+
+    - match: '\b(If|Then|Else|Else\s?If|End\s?If)\b'
+      scope: keyword.control.conditional.bb
+
+    - match: '\b(And|Or|Not|Xor|Mod|Shl|Shr|Sar)\b'
+      scope: keyword.operator.word.bb
+
+    - match: '\b(While|Wend|Repeat|Until|Forever|Exit)\b'
+      scope: keyword.control.bb
+
+    - match: '\b(For|To|Step|Next|Each)\b'
+      scope: keyword.control.bb
+
+    - match: '\b(\$|\#|\%)'
+      scope: storage.type.bb
+
+    - match: '\b(Global|Local|Const|Dim)\b'
+      scope: storage.modifier.bb
+
+    - match: '\b(Function|End\s?Function)\b'
+      scope: storage.type.function keyword.declaration.function.bb
+
+    - match: '^\.{{identifier}}'
+      scope: punctuation.definition.keyword.bb
+
+    - match: '\b(Goto|Gosub)\b'
+      scope: entity.name.label.bb variable.function.bb
+
+    - match: '^(Insert) {{identifier}} (Before|After)\s?(First|Last)?\s({{identifier}})'
+      captures:
+        1: variable.function.bb
+        2: constant.language.bb
+        3: constant.language.bb
+        4: entity.name.class.bb
+
+    - match: '^(Delete)'
+      scope: variable.function.bb
+      push:
+        - match: '((Each)|({{identifier}}))$'
+          captures:
+            2: entity.name.type
+            3: variable.other.bb
+          pop: true
+
+    - match: '\b(True|False|Null)\b'
+      scope: constant.language.bb
+
+    - match: '\b(Data)\b'
+      scope: entity.name.data.bb
+
+    - match: '\b({{command}})\b'
+      scope: variable.function.bb
+
+    - match: '\b({{function}})\b'
+      scope: variable.function.bb meta.function-call.bb
+      set:
+        - match: '\('
+          scope: punctuation.section.parens.begin.bb
+        - match: '\)'
+          scope: punctuation.section.parens.end.bb
+          pop: true
+        - include: main
+
+    - match: '\bInclude\b'
+      scope: keyword.control.import.bb
+
+    - match: '^Type\b'
+      scope: keyword.control.bb
+      push: type
+
+    - match: '(\b(New|First|Last)\b)(\s({{identifier}}))?'
+      captures:
+        2: keyword.other.storage.new.bb
+        3: entity.name.class.bb
+
+    - match: '\b({{identifier}})((\.)({{identifier}}))?'
+      captures:
+        1: variable.other.bb
+        3: punctuation.accessor.bb
+        4: keyword.control.bb
+
+
+
+  string:
+    - meta_scope: string.quoted.bb
+    - match: '\\.'
+      scope: constant.character.escape.bb
+    - match: '"'
+      scope: punctuation.definition.string.end.bb
+      pop: true
+
+  comment:
+    - meta_scope: comment.bb
+    - match: $
+      pop: true
+
+  brackets:
+    - match: \)
+      pop: true
+    - include: main
+
+  type:
+    - meta_scope: type.bb
+    - match: '^Field'
+      scope: storage.type.bb
+    - match: '\b{{identifier}}$'
+      scope: variable.other.bb
+    - match: '\b(End Type)\b'
+      scope: keyword.control.bb
+      pop: true
